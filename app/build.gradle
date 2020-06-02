@@ -61,7 +61,6 @@ dependencies {
             timber,
             coroutines,
             admob,
-            firebaseConfig,
             snacky,
             toasty,
             loadingView,

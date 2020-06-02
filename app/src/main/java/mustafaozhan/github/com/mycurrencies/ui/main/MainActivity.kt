@@ -30,7 +30,6 @@ import mustafaozhan.github.com.mycurrencies.ui.main.MainActivityData.Companion.A
 import mustafaozhan.github.com.mycurrencies.ui.main.MainActivityData.Companion.BACK_DELAY
 import mustafaozhan.github.com.mycurrencies.ui.main.MainActivityData.Companion.TEXT_EMAIL_TYPE
 import mustafaozhan.github.com.mycurrencies.ui.main.calculator.CalculatorFragmentDirections
-import mustafaozhan.github.com.mycurrencies.util.checkRemoteConfig
 import mustafaozhan.github.com.mycurrencies.util.showDialog
 import mustafaozhan.github.com.mycurrencies.util.showSnacky
 import mustafaozhan.github.com.mycurrencies.util.updateBaseContextLocale
@@ -52,7 +51,6 @@ open class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setGraph()
-        checkRemoteConfig(this)
         prepareRewardedAd()
         prepareInterstitialAd()
     }
