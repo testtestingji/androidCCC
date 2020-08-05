@@ -39,7 +39,7 @@ then
 	echo -e ${SUCCESS_BODY} ${build_url} | mail -s "${SUBJECT} - Success!" ${TO_ADDRESS}
 	echo "success mail sent"
 else
-	echo "Build Failed!"
+	echo "Mere payare Build Failed!"
 	echo -e ${FAILURE_BODY} ${build_url} | mail -s "${SUBJECT} - Failed!" ${TO_ADDRESS}
 	echo "failure mail sent"
 fi
