@@ -1,3 +1,5 @@
+echo "Pre build print ho jao!"
+
 #!/usr/bin/env bash
 #
 # Send a build notification over Email on Success/Failure of AppCenter Builds.
