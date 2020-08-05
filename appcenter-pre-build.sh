@@ -1,5 +1,5 @@
 echo "Pre build print ho jao!"
-
+#!/usr/bin/env bash  # Example: Change bundle name of an iOS app for non-production if [ "$APPCENTER_BRANCH" != "master" ]; then plutil -replace CFBundleName -string "\$(PRODUCT_NAME) Beta" $APPCENTER_SOURCE_DIRECTORY/MyApp/Info.plist fi
 #!/usr/bin/env bash
 #
 # Send a build notification over Email on Success/Failure of AppCenter Builds.
